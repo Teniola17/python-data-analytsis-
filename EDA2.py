@@ -129,3 +129,5 @@ plt.title("Boxplot of Weights of Freshmen in April by   Sex") # this will set th
 plt.xlabel("Sex") # this will set the label for the x-axis
 plt.ylabel("Weight in April (kg)") # this will set the label for the y-axis
 plt.show() # this will display the plot
+
+

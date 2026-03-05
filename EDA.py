@@ -55,14 +55,4 @@ from scipy.stats import ttest_ind
 male_weights = df[df['Sex'] == 'M']['Weight_Apr']
 female_weights = df[df['Sex'] == 'F']['Weight_Apr']
 t_stat, p_value = ttest_ind(male_weights, female_weights)
-print(f"T-statistic: {t_stat}, P-value: {p_value}") 
-
-
-import pandas as pd
-
-url = "https://rcs.bu.edu/examples/python/DataAnalysis/flights.csv"
-df = pd.read_csv(url)
-
-print(df.isnull().sum())
-
-print(df.info())
+print(f"T-statistic: {t_stat}, P-value: {p_value}")
