@@ -74,4 +74,3 @@ plt.title("Scatter plot of predicted probabilities and clump thickness colored b
 plt.xlabel("Predicted Probabilities") # this will set the x-axis label  
 plt.show() # this will display the plot
 
-#
